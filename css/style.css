@@ -113,3 +113,19 @@ p {
 	}
 /* End Navbar */
 
+
+/* Start Main Visual */
+.main-visual {
+}
+
+	.main-visual img {
+		display: block;
+	}
+
+	.main-visual figcaption {
+		background-color: #f6f6f6;
+		padding: 0.5em 1em;
+	}
+/* End Main Visual */
+
+
