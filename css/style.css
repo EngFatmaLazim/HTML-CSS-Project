@@ -150,5 +150,50 @@ p {
 		float: left;
 		width: 75%
 	}
-
 /* End Claims */
+
+/* Start Protfolio */
+.protfolio {
+	position: relative;
+}
+
+	.protfolio:before {
+		content: " ";
+		display: block;
+		height: 30px;
+		background: url(../images/Pattern.png) left top repeat-x;
+		margin-bottom: 2em
+	}
+
+	.protfolio .title-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.protfolio h2 {
+		display: inline;
+		background-color: #fff;
+		padding: 0.8em
+	}
+
+	.work {
+		float: left;
+		width: 22%;
+		margin-right: 4%
+	}
+
+	.work:last-child {
+		margin-right: 0;
+	}
+
+	.work figure {
+		margin-bottom: 1em;
+	}
+	
+	.work figure > img {
+		width: 100%
+	}
+/* End Protfolio */
