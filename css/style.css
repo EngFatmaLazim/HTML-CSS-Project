@@ -1,0 +1,52 @@
+/*
+Theme Name:    		Fatima Design
+Theme Coder:   		Fatima Ellazim
+Email: 		   		Fatmalazim.fl@gmail.com
+GitHub Account:     https://github.com/EngFatmaLazim
+Phone:        		+9530026213
+*/
+
+/* Start The Framework */
+body, *, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+
+h1,h2,h3,h3,h4,h5,h6, .title {
+	font-family: "Economica", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover, a:visited , a:active {
+	text-decoration:none;
+	color:inherit;
+}
+
+p {
+	margin:0.5em 0;
+	line-height 1.3; 
+	padding-bottom: 1rem
+}
+/* End The Framework */
