@@ -1,0 +1,59 @@
+.fixed-width {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.data-block {
+	margin-bottom: 3.5rem
+}
+
+/* Start Navbar */
+.page-header {
+	border-top: 7px solid #ebebeb;
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+	.page-header > div {
+		position: relative;
+	}
+
+	.page-header > div > em {
+		font-family: "pacifico", cursive;
+		font-size: 3.5em;
+		position: absolute;
+		bottom: 0
+	}
+
+	.page-header nav {
+		float: right;
+		font-family:"Economica", sans-serif;
+		text-transform: uppercase;
+	}
+
+	.page-header nav li {
+		color: #bfbfbf;
+		float: left;
+		margin-right: 3em;
+	}
+
+	.page-header nav li:last-child {
+		margin-right: 0
+	}
+
+	.page-header nav li em {
+		display: block;
+		color: #474747;
+		font-size: 1.6em;
+		padding-top: 0.2em
+	}
+/* End Navbar */
